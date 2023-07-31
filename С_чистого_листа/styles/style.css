@@ -19,7 +19,7 @@
     width: 360px;
     height: 132px;
     padding: 24px 20px;
-    align-items: flex-start;
+    align-items:flex-start;
     gap: 168px;
     flex-shrink: 0;
 }
@@ -163,16 +163,17 @@
     line-height: 21.6px;
     flex: 1 0 0;
 }
-.gap {
-    white-space: nowrap;
-}
 .list-accent {
     color: var(--black-bg, #131313);
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    line-height: 135%; 
+    line-height: 135%;
+}
+
+.gap {
+    white-space: nowrap;
 }
 .how-to {
     margin-top: 40px;
@@ -205,7 +206,7 @@
     display: flex;
     row-gap: 32px;
     align-items: center;
-
+    padding: 0;
 }
 .card-tehm_dark {
     display: flex;
@@ -226,7 +227,7 @@
     gap: 8px;
     border-radius: 30px;
     background: var(--yellow-bg, #FEE42A);
-    colo: var(--black-bg, #131313);
+    color: var(--black-bg, #131313);
 }
 .author {
     display: flex;
