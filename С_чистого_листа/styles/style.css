@@ -305,7 +305,7 @@ p, h1, h2, h3, h4, ul {
     line-height: 135%; /* 29.7px */
     padding: 3px;
 }
-.card-text-bright  {
+.card-text-bright {
     color: var(--black-bg, #131313);
     font-family: Inter;
     font-size: 18.6px;
