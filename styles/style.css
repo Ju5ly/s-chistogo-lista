@@ -1,0 +1,328 @@
+.body {
+    margin: 0;
+    background: #131313;
+    font-family: "Inter", "EB Garamond", sans-serif;
+}
+h1, h2,h3, h4,h5, h6, p, ul, ol, blockquote, span {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.content-section {
+    max-width: 360px;
+    margin: auto;
+    box-sizing: border-box;
+}
+.theme-dark {
+    background: #131313;
+}
+.theme-bright {
+    background: #FEE42A;
+}
+.header {
+    display: flex;
+    max-width: 360px;
+    padding: 24px 20px;
+    align-items:flex-start;
+    gap: 168px;
+    flex-shrink: 0;
+}
+.logo-image {
+    width: 78.453px;
+    height: 15.432px;
+    flex-shrink: 0;
+    margin-right: auto;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.menu-list {
+    list-style-type: none;
+    flex-direction: column;
+    display: flex;
+    row-gap: 13px;
+    margin: 0;
+    padding: 0;
+}
+.active {
+    border-bottom: 1px #F5F5F5 solid
+}
+.menu-item {
+    color: #F5F5F5;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+.menu-link {
+    color: #F5F5F5;
+    text-decoration: none;
+}
+.cover {
+    margin-top: 7px;
+    background-image: url(../images/cover.svg);
+    background-repeat: no-repeat;
+    background-size: 340px;
+    background-position: right bottom ;
+}
+.cover-title {
+    color: #FFF;
+    font-family: EB Garamond, Arial, sans-serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    margin: 0;
+    padding: 2px 25px 2px 20px;
+}
+.accent-span {
+    display: block;
+    text-align: left;
+}
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+.intro {
+    margin-top: 28px;
+}
+.intro-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 0 13px;
+}
+.intro-title {
+    color: #CCC;
+    font-family: Inter, Arial, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    max-width: 212px;
+    flex-shrink: 0;
+    margin: 0;
+    padding: 5px 0;
+}
+
+.intro-date {
+    color: #CCC;
+    font-family: Inter, Arial, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+.intro-main {
+    color: #F5F5F5;
+    font-family: Inter, Arial, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135%;
+    max-width: 360px;
+}
+.intro-first {
+    padding: 22px 19px;
+}
+.intro-second {
+    padding: 3px 19px;
+}
+.reasons {
+    margin-top: 38px;
+    display: flex;
+    padding: 38px 18px;
+    flex-direction: column;
+    gap: 30px;
+    flex-shrink: 0;
+}
+.subtitle {
+    color: #131313;
+    font-family: EB Garamond, Arial, sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 115%;
+    padding-right: 3px;
+}
+.introduction {
+    color: #131313;
+    font-family: Inter, Arial, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    max-width: 325px;
+    flex-shrink: 0;
+    padding-left: 2px;
+}
+.list-two {
+    flex-direction: column;
+    display: flex;
+    row-gap: 16px;
+    padding-left: 19px;
+    padding-top: 3px;
+}
+.reasons-list-item {
+    color: #131313;
+    font-family: Inter, Arial, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.6px;
+    flex: 1 0 0;
+}
+.list-accent {
+    color: #131313;
+    font-family: Inter, Arial, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 135%;
+}
+.How-to {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 33px;
+}
+.how-to {
+    color:#F5F5F5;
+}
+.subtitle-how-to {
+    color: #131313;
+    font-family: EB Garamond, Arial, sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 115%;
+    width: 340px;
+    padding-left: 21px;
+}
+.introduction-how-to {
+    color: #F5F5F5;
+    font-family: Inter, Arial, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    max-width: 360px;
+    padding-left: 20px;
+}
+.cards-list {
+    list-style-type: none;
+    flex-direction: column;
+    display: flex;
+    row-gap: 32px;
+    align-items: center;
+    padding-left: 20px;
+    max-width: 360px;
+}
+.card-tehm {
+    display: flex;
+    max-width: 280px;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    border-radius: 7%;
+    padding-top: 22px;
+}
+.dark {
+    background: #343434;
+}
+.bright {
+    background: #FEE42A;
+}
+.author {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+.author-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.author-name {
+    color: #F5F5F5;
+    font-family: Inter, Arial, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 135%;
+    max-width: 200px;
+}
+.author-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+.card-content {
+    display: flex;
+    gap: 7px;
+    flex-direction: column;
+}
+.card-title {
+    color: #F5F5F5;
+    font-family: EB Garamond, Arial, sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 135%;
+}
+.card-text {
+    color: #F5F5F5;
+    font-family: Inter, Arial, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135%;
+    max-width: 282px;
+}
+.bright-text {
+    color: #131313;
+}
+.footer {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    display: flex;
+    max-width: 320px;
+    padding: 20px;
+    align-items:end;
+    border-top: 1px solid #FEE42A;
+}
+.footer-copy {
+    color: #F5F5F5;
+    font-family: Inter, Arial, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135%;
+}
+.footer-links {
+    display: flex;
+    list-style-type: none;
+    align-items: flex-start;
+    gap: 16px;
+    margin-left: auto;
+    padding-bottom: 4px;
+}
+.link {
+    color: #F5F5F5;
+    font-family: Inter, Arial, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+}
